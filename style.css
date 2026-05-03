@@ -1,0 +1,236 @@
+body{
+    background-image: url("img2/body5.JPG");
+    background-repeat: repeat ;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.header{
+    background-image:url("img2/body1.JPG");
+    padding:10px ;
+    background-repeat: no-repeat ;
+    background-size: contain;
+    background-repeat: repeat;
+    
+
+}
+.header div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 24.8%;
+    float: left;
+    border-right: 2px white solid; 
+
+}
+ a{
+    background: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    opacity: 0.9 ;
+    text-shadow: 20px;
+}
+
+
+.header a:hover{
+    color: red;
+    font-size: larger;
+    text-decoration: none;
+    box-shadow: 0 0 25px 8px rgba(255, 2, 2, 0.9),
+                0 0 50px 15px rgba(255, 2, 2, 0.5);
+}
+.clear{
+    clear: both;
+}
+
+
+.class1{
+    text-align: center;
+    background-color: #eee;
+    padding: 10px;
+    margin: 10px;
+    border:10px black dotted ;
+    border-radius: 60px;
+    border-width: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.content1 ul {
+    color: black;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow: 0 0 25px 8px rgba(255, 2, 2, 0.9),
+    0 0 50px 15px rgba(255, 2, 2, 0.5);
+    background-color: #eee;
+    list-style-position: inside;
+}
+
+
+.class2{
+    text-align: center;
+    background-color: #eee;
+    padding: 10px;
+    margin: 10px;
+    border:10px black dotted ;
+    border-radius: 60px;
+    border-width: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+
+.g1{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 25px;
+    box-shadow: 0 0 15px 4px rgba(5, 17, 131, 0.7),
+    0 0 30px 8px rgba(5, 17, 131, 0.4);
+
+
+}
+
+
+.g2{
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    margin:5px;
+    border-radius: 25px;
+    box-shadow: 0 0 15px 4px rgba(251, 255, 2, 0.7),
+    0 0 30px 8px rgba(251, 255, 2, 0.4);
+}
+
+.g3{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 25px;
+    box-shadow: 0 0 15px 4px rgba(47, 230, 11, 0.7),
+    0 0 30px 8px rgba(47, 230, 11, 0.4);
+}
+
+.g4{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 25px;
+    box-shadow: 0 0 15px 4px rgba(75, 72, 72, 0.7),
+    0 0 30px 8px rgba(75, 72, 72, 0.4);
+}
+
+
+.g1:hover{
+    transform: scale(1.08);
+    
+    /* نور أقوى عند التأشير */
+    box-shadow: 0 0 25px 8px rgba(5, 17, 131, 0.9),
+     0 0 50px 15px rgba(5, 17, 131, 0.5);
+    cursor: pointer;
+
+}
+.g2:hover{
+    transform: scale(1.08);
+    
+    /* نور أقوى عند التأشير */
+    box-shadow: 0 0 25px 8px rgba(251, 255, 2, 0.9),
+      0 0 50px 15px rgba(251, 255, 2 0.5);
+    cursor: pointer;
+}
+
+.g3:hover{
+    transform: scale(1.08);
+    
+    /* نور أقوى عند التأشير */
+    box-shadow: 0 0 25px 8px rgba(47, 230, 11, 0.9),
+      0 0 50px 15px rgba(47, 230, 11, 0.5);
+      cursor: pointer;
+
+}
+.g4:hover{
+    transform: scale(1.08);
+    
+    /* نور أقوى عند التأشير */
+    box-shadow: 0 0 25px 8px rgba(75, 72, 72, 0.9),
+     0 0 50px 15px rgba(75, 72, 72, 0.5);
+     cursor: pointer;
+
+}
+
+.work span{
+    font-size: 32PX;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    margin: 60px;
+
+
+}
+
+.sr{
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+    background-color: rgb(90, 7, 7);
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.sr:hover{
+    color: red;
+    font-size: larger;
+    text-decoration: none;
+    box-shadow: 0 0 25px 8px rgba(255, 2, 2, 0.9),
+                0 0 50px 15px rgba(255, 2, 2, 0.5);
+}
+
+.content span{
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: red;
+}
+.content p{
+    display: inline;
+    background: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    opacity: 0.9 ;
+    text-shadow: 20px;
+}
+.content h2{
+    text-align: center;
+    background-color: #eee;
+    padding: 10px;
+    margin: 10px;
+    border:10px black dotted ;
+    border-radius: 60px;
+    border-width: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* ارتفاع الـ nav بتاعك */
+  }
+
+
+
+
+
+
